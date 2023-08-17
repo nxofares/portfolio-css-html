@@ -1,0 +1,77 @@
+/* Reset default styles */
+body, h1, h2, h3, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: yellow;
+}
+
+/* Navbar styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 1rem;
+}
+
+#navbar a {
+  color: yellow;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Welcome section styles */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 2rem;
+}
+
+.project-tile {
+  background-color: black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid yellow;
+}
+
+.project-tile h2 {
+  color: yellow;
+}
+
+.project-tile a {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+}
+
+footer p {
+  color: yellow;
+}
+/* Rest of your CSS rules */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Other style adjustments as needed */
+}
